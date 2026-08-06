@@ -5,5 +5,7 @@
   </Configurations>
   <Project Path="00_cppfoundations/00_00_ifstatements/ifstatements/ifstatements.vcxproj" Id="4aa56b26-db87-48af-b34b-adb0ea163bb3" />
   <Project Path="00_cppfoundations/00_01_switchstatements/switchstatements/switchstatements.vcxproj" Id="adbc72b6-b387-4db4-b2fb-3cf1a9eb9cdf" />
+  <Project Path="00_cppfoundations/00_02_whileloops/whileloops/whileloops.vcxproj" Id="0eb64b45-1a4e-4534-9539-0f6f4175ccfe" />
+  <Project Path="00_cppfoundations/00_03_forloops/forloops/forloops.vcxproj" Id="6f9446c2-3a94-497c-a3f9-4decbcf195a2" />
   <Project Path="GraphicsProgramming Diary.vcxproj" Id="8f9a7a60-66f5-45fe-b205-0fba60635126" />
 </Solution>
