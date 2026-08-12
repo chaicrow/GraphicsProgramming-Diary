@@ -1,5 +1,6 @@
 // In this program I'll build a mini game to discover more about raylib.
 // I'm using a Programming With Nick tutorial on Youtube.
+// I used this mostly to learn about lists and how to use them.
 //
 
 #include <iostream>
