@@ -143,6 +143,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="asciiRPG.cpp" />
+    <ClCompile Include="combat.cpp" />
     <ClCompile Include="game.cpp" />
     <ClCompile Include="map.cpp" />
   </ItemGroup>

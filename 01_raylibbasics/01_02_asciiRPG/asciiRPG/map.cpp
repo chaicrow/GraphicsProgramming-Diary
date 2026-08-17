@@ -20,11 +20,11 @@ std::array <
     "#.............*...#",
     "#.................#",
     "#....*.....###....#",
-    "#.................#",
-    "#....~~~~.........#",
+    "#..M..............#",
+    "#....~~~~....M....#",
     "#.................#",
     "#..~~~~~..........#",
-    "#..~###~..........#",
+    "#..~###~.M........#",
     "#..~~~~~.....*....#",
     "###################"
 
@@ -33,8 +33,10 @@ std::array <
 Color get_tile_color(char tile) { // Switch assigning each char a different color.
     switch (tile) {
     case '#': return GRAY; // Dungeon
-    case '.': return GREEN; // Grass
+    case '.': return DARKGREEN; // Grass
     case '~': return BLUE; // Water
+    case 'M': return RED; // Monster
+    case 'W': return GREEN; // Monster
     case '*': return YELLOW; // Flower
     default: return RAYWHITE; 
     }

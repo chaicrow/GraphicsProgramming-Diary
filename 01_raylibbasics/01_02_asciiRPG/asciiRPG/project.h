@@ -13,7 +13,7 @@
 
 constexpr int TILE_SIZE = 32;
 constexpr int MAP_WIDTH = 20;
-constexpr int MAP_HEIGHT = 20;
+constexpr int MAP_HEIGHT = 15;
 
 class Player {
 public:
@@ -29,6 +29,15 @@ public:
 	}
 };
 
+
+enum class GameState {
+	MAP,
+	COMBAT
+};
+
+extern GameState gameState;
+
+
 // game.cpp file
 void game_startup();
 void game_update();
@@ -40,4 +49,7 @@ extern Player player;
 Color get_tile_color(char tile);
 void draw_map(Vector2 origin); 
 void draw_player(Vector2 origin);
+extern std::array<std::array<char, MAP_WIDTH>, MAP_HEIGHT> map;
 
+// combat.cpp file
+void draw_combat_screen();

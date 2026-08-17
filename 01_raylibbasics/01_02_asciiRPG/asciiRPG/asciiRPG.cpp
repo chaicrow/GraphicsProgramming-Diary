@@ -7,7 +7,7 @@ int main()
 {
     // Initialize game
 
-    InitWindow(800, 600, "ASCII RPG");
+    InitWindow(MAP_WIDTH * TILE_SIZE, MAP_HEIGHT * TILE_SIZE, "ASCII RPG");
     SetTargetFPS(60);
     srand(time(NULL)); // This uses the current system time in seconds as a seed
 
