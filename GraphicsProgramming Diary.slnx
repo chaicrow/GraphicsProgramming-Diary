@@ -11,5 +11,6 @@
   <Project Path="01_raylibbasics/01_00_basicsofthebasics/basicsofthebasics/basicsofthebasics.vcxproj" Id="3ae78152-b638-4270-a41b-e0e28598b93b" />
   <Project Path="01_raylibbasics/01_01_minigame/minigame/minigame.vcxproj" Id="064640aa-4f3b-4dad-a174-e50e56b8fd2d" />
   <Project Path="01_raylibbasics/01_02_asciiRPG/asciiRPG/asciiRPG.vcxproj" Id="5fd59858-f3fc-4d62-87ff-c13923fdde8e" />
+  <Project Path="05_particles&amp;simulation/05_00_basicparticlesim/basicparticlesim/basicparticlesim.vcxproj" Id="2c7d963e-64b7-44bb-8006-ded5f94bbbce" />
   <Project Path="GraphicsProgramming Diary.vcxproj" Id="8f9a7a60-66f5-45fe-b205-0fba60635126" />
 </Solution>
